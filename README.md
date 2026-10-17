@@ -2,8 +2,6 @@
 
 A modern, minimalist, and responsive Digital Business Card built with React.js and Vite, deployed live on Vercel.
 
-![Digital Business Card Preview](src/eu.png)
-
 ---
 
 ## Live Demo

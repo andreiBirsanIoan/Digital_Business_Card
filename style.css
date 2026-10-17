@@ -1,0 +1,59 @@
+body{
+    font-family:'Inter', sans-serif;
+    position:relative;
+    /*background-color: #23252C;*/
+    background: radial-gradient(circle at center, #0f172a 0%, #080d1a 100%);
+    display: flex;
+  justify-content: center;
+   overflow:hidden;
+}
+.cardAspect{
+    width:400px;
+    background: rgba(18, 18, 26, 0.75);
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 20px;
+    border-radius: 25px;
+    
+}.cardAspect:hover {
+  transform: translateY(-3px);
+  box-shadow:#1a0b2e;
+}
+.paragraph{
+    color:gray;
+}
+.button{
+    height: 50px;
+    width:50%;
+    border-radius: 10px;
+    border: none;
+}
+h1{
+    font-size: 25px;
+}
+h2{
+    font-size:13px;
+}
+h3{
+    color:#94A3B8;
+    font-size: 17px;
+
+}
+#buttonLinkedIn{
+    background-color:#0A66C2;
+    color:white;
+}
+.cardHeader{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.profilePic {
+  width: 270px;           /* Sau dimensiunea dorită */
+  height: 270px;
+  object-fit: cover;      /* Împiedică deformarea imaginii */
+  border-radius: 10px ; /* Opțional: rotunjește doar colțurile de sus */
+}

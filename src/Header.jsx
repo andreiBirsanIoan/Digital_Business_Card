@@ -1,5 +1,5 @@
 import React from "react"
-import profilePic from "../eu.png"
+import profilePic from "./eu.png"
 export default function Header(){
     return(
         <header className="cardHeader">
